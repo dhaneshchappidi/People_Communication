@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back3"
+    android:layout_height="match_parent"
+    tools:context=".Login_act">
+
+    <TextView
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        android:text="Login"
+        android:textColor="#E4AB15"
+        android:textSize="50dp"
+        android:typeface="serif" />
+    <ImageView
+        android:id="@+id/tv1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/ic_person_white_24dp"
+        />
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/edit_back"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="5dp"
+        android:textColor="#000000"
+        android:hint="Id No"
+        android:inputType="text" />
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_back"
+        android:id="@+id/pass"
+        android:layout_below="@+id/uname"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="5dp"
+        android:hint="Enter password"
+        />
+    <ImageButton
+        android:layout_width="68dp"
+        android:layout_height="64dp"
+        android:src="@drawable/arr"
+        android:id="@+id/submit"
+        android:onClick="btnClickAct1"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/forget"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="Forgot Password"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_below="@id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:typeface="serif"
+        android:background="@drawable/background2"/>
+</RelativeLayout>

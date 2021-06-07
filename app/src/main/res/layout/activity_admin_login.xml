@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Admin_login">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#E4AB15"
+        android:textSize="50dp"
+        android:typeface="serif" />
+    <ImageView
+        android:id="@+id/tv2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/person2"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/tv2"
+        android:gravity="center_horizontal"
+        android:theme="@style/EditTextHint"
+        >
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/uname"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_back"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:hint="Enter Username"
+        android:textColorHint="#7E7676"
+        android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:theme="@style/EditTextHint"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@+id/username"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        >
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_back"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/pass"
+        android:inputType="textPassword"
+        android:drawablePadding="5dp"
+        android:hint="Enter Password"
+        android:ems="10"
+        android:id="@+id/pass"
+        />
+    </android.support.design.widget.TextInputLayout>
+    <ImageButton
+        android:layout_width="68dp"
+        android:layout_height="64dp"
+        android:src="@drawable/arr"
+        android:id="@+id/submit"
+        android:onClick="btnClickAct1"
+        android:layout_below="@id/password"
+        android:background="@drawable/background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

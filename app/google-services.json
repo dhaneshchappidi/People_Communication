@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126147838873",
+    "firebase_url": "https://people-communication-4422d.firebaseio.com",
+    "project_id": "people-communication-4422d",
+    "storage_bucket": "people-communication-4422d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126147838873:android:b6d34639faaab005244908",
+        "android_client_info": {
+          "package_name": "com.example.dhaneshchappidi.pc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126147838873-us3f8qiq2na28abvikeketg90pf6c1kv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhaneshchappidi.pc",
+            "certificate_hash": "d7766d7ad4790e8daff09414ae4e4ffc13036929"
+          }
+        },
+        {
+          "client_id": "126147838873-t48u4fcqkv4qqop17vfm0nktinsa3h1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6kLm_-qbkrpUH01mZkZAsmwwH5HpCp1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126147838873-t48u4fcqkv4qqop17vfm0nktinsa3h1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

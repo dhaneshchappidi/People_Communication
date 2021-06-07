@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">PC</string>
+    <string name="Branch_prompt">Choose branch</string>
+    <string name="Year_prompt">Choose year</string>
+    <string name="que_prompt">Choose category</string>
+
+    <string-array name="Branch_arrays">
+        <item>ALL</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>CHEM</item>
+        <item>MME</item>
+    </string-array>
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>CHEM</item>
+        <item>MME</item>
+    </string-array>
+    <string-array name="Year_arrays">
+        <item>ALL</item>
+        <item>PUC-1</item>
+        <item>PUC-2</item>
+        <item>E1</item>
+        <item>E2</item>
+        <item>E3</item>
+        <item>E4</item>
+    </string-array>
+    <string-array name="Year_branch">
+        <item>ALL</item>
+        <item>E1</item>
+        <item>E2</item>
+        <item>E3</item>
+        <item>E4</item>
+    </string-array>
+    <string-array name="que_arrays">
+        <item>ALL</item>
+        <item>PUC-1</item>
+        <item>PUC-2</item>
+        <item>GK</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>CHEM</item>
+        <item>MME</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

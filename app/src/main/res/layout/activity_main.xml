@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="You are"
+        android:gravity="center_horizontal"
+        android:textColor="#E4AB15"
+        android:textSize="50dp"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:src="@drawable/student"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"/>
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageButton"
+        android:background="@drawable/background2"
+        android:text="Student"
+        android:layout_marginLeft="20dp"
+        android:onClick="btnClickAct1"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/director" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="108dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginLeft="280dp"
+
+        android:background="@drawable/background2"
+        android:text="Faculty"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+</RelativeLayout>
+
+

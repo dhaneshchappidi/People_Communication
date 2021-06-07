@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/user_dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/student"
+        />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+
+        >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/pro_name"
+            android:text="Name here"
+            android:paddingTop="15dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_mail_black_24dp"
+            android:text="Id@rguktn.ac.in"
+            android:layout_marginTop="20dp"
+            android:paddingTop="15dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/idno"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Id No"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:paddingTop="15dp"
+            android:drawableLeft="@drawable/id_no"
+            />
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Phone Number"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:paddingTop="15dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/branch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Branch"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/branch"
+            android:paddingTop="15dp"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
